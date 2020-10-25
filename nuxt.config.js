@@ -42,7 +42,21 @@ export default {
     '@nuxtjs/axios',
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
+    '@nuxtjs/google-gtag'
   ],
+
+  'google-gtag': {
+    id: 'G-13MM0N49WG',
+    config: {
+      anonymize_ip: true,
+      send_page_view: true,
+      linker: {
+        domains: ['isurvivedcovid.com']
+      }
+    },
+    debug: true,
+    disableAutoPageTrack: false,
+  },
 
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)
   axios: {},
