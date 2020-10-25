@@ -4,7 +4,7 @@
       <div>
         <article class="text-4xl mb-4">
           <h1>You might have survived Covid.</h1>
-          <h2>They didnt.</h2>
+          <h2>They didn't.</h2>
         </article>
         <nav class="nav-vote text-6xl mb-8">
           <ul>
