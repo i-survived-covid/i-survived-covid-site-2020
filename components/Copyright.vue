@@ -1,5 +1,5 @@
 <template>
-  <small>© Copyright 2020</small>
+  <small>© 2020</small>
 </template>
 
 <script lang="ts">
