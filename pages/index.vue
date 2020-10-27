@@ -20,7 +20,7 @@
         </footer>
       </div>
     </div>
-    <Counter :start="0" :stop="200000" :duration="120"></Counter>
+    <Counter :start="0" :stop="200000" :duration="10"></Counter>
   </main>
 </template>
 
